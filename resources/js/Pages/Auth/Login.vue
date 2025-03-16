@@ -50,6 +50,7 @@ const submit = () => {
                     type="email"
                     class="mt-1 block w-full"
                     v-model="form.email"
+                    value="nben19732@gmail.com"
                     required
                     autofocus
                     autocomplete="username"
@@ -66,6 +67,7 @@ const submit = () => {
                     type="password"
                     class="mt-1 block w-full"
                     v-model="form.password"
+                    value="demo1234"
                     required
                     autocomplete="current-password"
                 />
